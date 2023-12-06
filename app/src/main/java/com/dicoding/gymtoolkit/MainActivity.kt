@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
+import com.dicoding.gymtoolkit.presentation.login.LoginScreen
 import com.dicoding.gymtoolkit.presentation.nvgraph.NavGraph
 import com.dicoding.gymtoolkit.ui.theme.GymToolKitTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
@@ -32,13 +33,16 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+
         setContent {
             GymToolKitTheme {
+                LoginScreen()
+
 
                 val isSystemInDarkMode = isSystemInDarkTheme()
                 val systemController = rememberSystemUiController()
 
-                SideEffect {
+                SideEffect { //Membuat system ui transparan
                     systemController.setSystemBarsColor(
                         color = Color.Transparent,
                         darkIcons = !isSystemInDarkMode

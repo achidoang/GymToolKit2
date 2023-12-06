@@ -8,8 +8,26 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.dicoding.gymtoolkit.R
 
+val Inter = FontFamily(
+    listOf(
+        Font(resId = R.font.inter_medium, weight = FontWeight.Medium)
+    )
+)
 
-// Set of Material typography styles to start with
+val Rubik = FontFamily(
+    listOf(
+        Font(resId = R.font.rubik_bold, weight = FontWeight.Bold)
+    )
+)
+
+val Roboto = FontFamily(
+    listOf(
+        Font(resId = R.font.roboto_medium, weight = FontWeight.Medium),
+        Font(resId = R.font.roboto_regular, weight = FontWeight.Normal),
+        Font(resId = R.font.roboto_bold, weight = FontWeight.ExtraBold),
+    )
+)
+
 val Poppins = FontFamily(
     fonts = listOf(
         Font(R.font.poppins_regular, FontWeight.Normal),
@@ -20,6 +38,7 @@ val Poppins = FontFamily(
 
 
 
+// Set of Material typography styles to start with
 val Typography = Typography(
     displaySmall = TextStyle(
         fontSize = 24.sp,
@@ -51,4 +70,27 @@ val Typography = Typography(
         fontWeight = FontWeight.Normal,
         lineHeight = 19.sp,
     ),
+
+
+
+    headlineLarge = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 32.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Rubik,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Inter,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Roboto,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    )
 )

@@ -9,6 +9,8 @@ object Dimens {
     val MediumPadding2 = 30.dp
     val MediumPadding3 = 40.dp
     val HighPadding1 = 120.dp
+    val HighPadding2 = 90.dp
+
 
     val IndicatorSize = 14.dp
 
@@ -17,4 +19,6 @@ object Dimens {
     val ArticleCardSize = 96.dp
 
     val SmallIconSize = 11.dp
+
+    val BigIconSize = 210.dp
 }

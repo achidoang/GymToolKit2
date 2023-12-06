@@ -71,6 +71,24 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+
+    //Navigation component
+    val nav_version = "2.5.2"
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
+    //loading button
+    implementation("br.com.simplepass:loading-button-android:2.2.0")
+
+    //Glide
+    implementation("com.github.bumptech.glide:glide:4.13.0")
+
+    //circular image
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    //viewpager2 indicatior
+    implementation("io.github.vejei.viewpagerindicator:viewpagerindicator:1.0.0-alpha.1")
+
     //Splash Api
     implementation("androidx.core:core-splashscreen:1.0.1")
 
@@ -109,5 +127,11 @@ dependencies {
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:2.5.2")
+
+    //Firebase
+    implementation("com.google.firebase:firebase-auth:21.0.6")
+
+    //Coroutines with firebase
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.5.1")
 
 }

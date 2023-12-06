@@ -52,13 +52,13 @@ fun OnBoardingPage(
             color = colorResource(id = R.color.display_small)
         )
 
-//        // Deskripsi
-//        Text(
-//            text = page.description,
-//            modifier = Modifier.padding(horizontal = MediumPadding2),
-//            style = MaterialTheme.typography.displaySmall,
-//            color = colorResource(id = R.color.text_medium)
-//        )
+        // Deskripsi
+        Text(
+            text = page.description,
+            modifier = Modifier.padding(horizontal = MediumPadding2),
+            style = MaterialTheme.typography.displaySmall,
+            color = colorResource(id = R.color.text_medium)
+        )
 
     }
 }
