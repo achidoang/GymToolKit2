@@ -1838,6 +1838,7 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_camera
 drawable ic_clock_black_24dp
 drawable ic_close
 drawable ic_done_white_48dp
@@ -1854,6 +1855,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_network
 drawable ic_network_error
 drawable ic_preferences
+drawable ic_profil
 drawable ic_search
 drawable ic_search_document
 drawable ic_splash
@@ -2639,6 +2641,9 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu_camera
+string menu_home
+string menu_profile
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description

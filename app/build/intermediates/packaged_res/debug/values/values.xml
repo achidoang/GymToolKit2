@@ -11,6 +11,9 @@
     <string name="app_name">GymToolKit</string>
     <string name="gym_toolkit">Gym Toolkit</string>
     <string name="login">Sign In</string>
+    <string name="menu_camera">Halaman Camera</string>
+    <string name="menu_home">Halaman Home</string>
+    <string name="menu_profile">Halaman Profil</string>
     <string name="the_tolet">The Tolet</string>
     <style name="App.Starting.Theme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FFFF</item>

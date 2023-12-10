@@ -69,7 +69,7 @@ fun OnBoardingPage(
 fun OnBoardingPagePreview() {
     GymToolKitTheme {
         OnBoardingPage(
-            page = pages[0]
+            page = pages[1]
         )
     }
 }

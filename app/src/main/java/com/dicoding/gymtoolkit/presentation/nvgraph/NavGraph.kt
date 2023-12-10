@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
 import com.dicoding.gymtoolkit.presentation.login.LoginScreen
+import com.dicoding.gymtoolkit.presentation.navigation.Navigator
 import com.dicoding.gymtoolkit.presentation.onboarding.OnBoardingScreen
 import com.dicoding.gymtoolkit.presentation.onboarding.OnBoardingViewModel
 
@@ -32,10 +33,10 @@ fun NavGraph(
         navigation(
             route = Route.AppStartNavigation.route,
             startDestination = Route.OnBoardingScreen.route
-        ) {
+        ){
             composable(
                 route = Route.OnBoardingScreen.route
-            ) {
+            ){
                 val viewModel: OnBoardingViewModel = hiltViewModel()
                 OnBoardingScreen(
                     event = viewModel::onEvent
@@ -46,9 +47,9 @@ fun NavGraph(
         navigation(
             route = Route.GymNavigation.route,
             startDestination = Route.GymNavigatorScreen.route
-        ) {
-            composable(route = Route.GymNavigatorScreen.route) {
-                Text(text = "Gym Navigator Screen")
+        ){
+            composable(route = Route.GymNavigatorScreen.route){
+                Navigator()
             }
         }
     }

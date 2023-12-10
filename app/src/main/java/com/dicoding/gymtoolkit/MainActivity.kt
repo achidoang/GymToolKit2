@@ -33,16 +33,13 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-
         setContent {
             GymToolKitTheme {
-                LoginScreen()
-
 
                 val isSystemInDarkMode = isSystemInDarkTheme()
                 val systemController = rememberSystemUiController()
 
-                SideEffect { //Membuat system ui transparan
+                SideEffect {
                     systemController.setSystemBarsColor(
                         color = Color.Transparent,
                         darkIcons = !isSystemInDarkMode
@@ -58,6 +55,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 
 //@Preview(showBackground = true)
 //@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)

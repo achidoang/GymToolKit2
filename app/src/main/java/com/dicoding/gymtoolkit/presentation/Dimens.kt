@@ -19,6 +19,7 @@ object Dimens {
     val ArticleCardSize = 96.dp
 
     val SmallIconSize = 11.dp
+    val IconSize = 20.dp
 
     val BigIconSize = 210.dp
 }

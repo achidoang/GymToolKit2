@@ -9,6 +9,7 @@ color text_medium
 color text_title
 drawable ic_back_arrow
 drawable ic_bookmark
+drawable ic_camera
 drawable ic_close
 drawable ic_home
 drawable ic_launcher_background
@@ -18,6 +19,7 @@ drawable ic_logo2
 drawable ic_network
 drawable ic_network_error
 drawable ic_preferences
+drawable ic_profil
 drawable ic_search
 drawable ic_search_document
 drawable ic_splash
@@ -46,6 +48,9 @@ string app_logo
 string app_name
 string gym_toolkit
 string login
+string menu_camera
+string menu_home
+string menu_profile
 string the_tolet
 style App.Starting.Theme
 style Theme.GymToolKit

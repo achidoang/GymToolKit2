@@ -32,10 +32,6 @@
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\font\\roboto_medium.ttf"
     },
     {
-        "merged": "com.dicoding.gymtoolkit.app-merged_res-4:/drawable_ic_logo2.xml.flat",
-        "source": "com.dicoding.gymtoolkit.app-main-6:/drawable/ic_logo2.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\font_poppins_semibold.ttf.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\font\\poppins_semibold.ttf"
     },
@@ -60,12 +56,12 @@
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\font\\poppins_bold.ttf"
     },
     {
-        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable-night_ic_splash.xml.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable-night\\ic_splash.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_bookmark.xml.flat",
@@ -100,24 +96,32 @@
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_back_arrow.xml.flat",
+        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_back_arrow.xml"
+    },
+    {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_onboarding5.png.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\onboarding5.png"
     },
     {
-        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_back_arrow.xml.flat",
-        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_back_arrow.xml"
+        "merged": "com.dicoding.gymtoolkit.app-merged_res-4:/drawable_ic_profil.xml.flat",
+        "source": "com.dicoding.gymtoolkit.app-main-6:/drawable/ic_profil.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_logo2.xml.flat",
+        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_logo2.xml"
     },
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\font_roboto_bold.ttf.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\font\\roboto_bold.ttf"
     },
     {
-        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_network.xml.flat",
-        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_network.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_close.xml.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_network.xml.flat",
+        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\ic_network.xml"
     },
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -132,12 +136,12 @@
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\font_roboto_regular.ttf.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\font\\roboto_regular.ttf"
+    },
+    {
+        "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_splash.xml.flat",
@@ -154,6 +158,10 @@
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_shape.xml.flat",
         "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-main-6:\\drawable\\shape.xml"
+    },
+    {
+        "merged": "com.dicoding.gymtoolkit.app-merged_res-4:/drawable_ic_camera.xml.flat",
+        "source": "com.dicoding.gymtoolkit.app-main-6:/drawable/ic_camera.xml"
     },
     {
         "merged": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\daemon\\8.0\\com.dicoding.gymtoolkit.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
