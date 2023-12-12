@@ -4,6 +4,23 @@
             "outputFile": "com.dicoding.gymtoolkit.app-mergeDebugResources-2:/values-ml/values-ml.xml",
             "map": [
                 {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7f603b7df6dd5744dc754a5e82c49e31\\transformed\\ui-release\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,287,386,490,580,666,767,854,942,1009,1076,1162,1249,1327,1403,1470",
+                        "endColumns": "94,86,98,103,89,85,100,86,87,66,66,85,86,77,75,66,118",
+                        "endOffsets": "195,282,381,485,575,661,762,849,937,1004,1071,1157,1244,1322,1398,1465,1584"
+                    },
+                    "to": {
+                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4145,4240,7307,7406,7582,8302,8388,12555,12642,12730,12797,12948,13034,13204,13383,13459,13526",
+                        "endColumns": "94,86,98,103,89,85,100,86,87,66,66,85,86,77,75,66,118",
+                        "endOffsets": "4235,4322,7401,7505,7667,8383,8484,12637,12725,12792,12859,13029,13116,13277,13454,13521,13640"
+                    }
+                },
+                {
                     "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\84450a52d98ff13d5c4aae195ce46e39\\transformed\\browser-1.4.0\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -35,23 +52,6 @@
                         "startOffsets": "5623",
                         "endColumns": "159",
                         "endOffsets": "5778"
-                    }
-                },
-                {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\c416cfc35e4b8f100aae68aa60258280\\transformed\\ui-release\\res\\values-ml\\values-ml.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,287,386,490,580,666,767,854,942,1009,1076,1162,1249,1327,1403,1470",
-                        "endColumns": "94,86,98,103,89,85,100,86,87,66,66,85,86,77,75,66,118",
-                        "endOffsets": "195,282,381,485,575,661,762,849,937,1004,1071,1157,1244,1322,1398,1465,1584"
-                    },
-                    "to": {
-                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4145,4240,7307,7406,7582,8302,8388,12555,12642,12730,12797,12948,13034,13204,13383,13459,13526",
-                        "endColumns": "94,86,98,103,89,85,100,86,87,66,66,85,86,77,75,66,118",
-                        "endOffsets": "4235,4322,7401,7505,7667,8383,8484,12637,12725,12792,12859,13029,13116,13277,13454,13521,13640"
                     }
                 },
                 {
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\e5146f3c493cabcaadb177b74eb4ed92\\transformed\\core-1.11.0-beta02\\res\\values-ml\\values-ml.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7179d9222085279d1a029bc73a01955f\\transformed\\core-1.10.0\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

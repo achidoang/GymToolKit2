@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\e5146f3c493cabcaadb177b74eb4ed92\\transformed\\core-1.11.0-beta02\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\34caf84e7c4f920ed6a914d97b7122d4\\transformed\\navigation-ui-2.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,154",
+                        "endColumns": "98,99",
+                        "endOffsets": "149,249"
+                    },
+                    "to": {
+                        "startLines": "125,126",
+                        "startColumns": "4,4",
+                        "startOffsets": "10584,10683",
+                        "endColumns": "98,99",
+                        "endOffsets": "10678,10778"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7179d9222085279d1a029bc73a01955f\\transformed\\core-1.10.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,20 +57,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\34caf84e7c4f920ed6a914d97b7122d4\\transformed\\navigation-ui-2.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7f603b7df6dd5744dc754a5e82c49e31\\transformed\\ui-release\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,154",
-                        "endColumns": "98,99",
-                        "endOffsets": "149,249"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,182,258,345,436,514,588,665,743,818,883,948,1021,1096,1164,1238,1306",
+                        "endColumns": "76,75,86,90,77,73,76,77,74,64,64,72,74,67,73,67,115",
+                        "endOffsets": "177,253,340,431,509,583,660,738,813,878,943,1016,1091,1159,1233,1301,1417"
                     },
                     "to": {
-                        "startLines": "125,126",
-                        "startColumns": "4,4",
-                        "startOffsets": "10584,10683",
-                        "endColumns": "98,99",
-                        "endOffsets": "10678,10778"
+                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3820,3897,6378,6465,6626,7261,7335,10783,10861,10936,11001,11135,11208,11362,11531,11605,11673",
+                        "endColumns": "76,75,86,90,77,73,76,77,74,64,64,72,74,67,73,67,115",
+                        "endOffsets": "3892,3968,6460,6551,6699,7330,7407,10856,10931,10996,11061,11203,11278,11425,11600,11668,11784"
                     }
                 },
                 {
@@ -105,23 +122,6 @@
                         "startOffsets": "3973,6556,6766",
                         "endColumns": "71,69,70",
                         "endOffsets": "4040,6621,6832"
-                    }
-                },
-                {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\c416cfc35e4b8f100aae68aa60258280\\transformed\\ui-release\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,182,258,345,436,514,588,665,743,818,883,948,1021,1096,1164,1238,1306",
-                        "endColumns": "76,75,86,90,77,73,76,77,74,64,64,72,74,67,73,67,115",
-                        "endOffsets": "177,253,340,431,509,583,660,738,813,878,943,1016,1091,1159,1233,1301,1417"
-                    },
-                    "to": {
-                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3820,3897,6378,6465,6626,7261,7335,10783,10861,10936,11001,11135,11208,11362,11531,11605,11673",
-                        "endColumns": "76,75,86,90,77,73,76,77,74,64,64,72,74,67,73,67,115",
-                        "endOffsets": "3892,3968,6460,6551,6699,7330,7407,10856,10931,10996,11061,11203,11278,11425,11600,11668,11784"
                     }
                 },
                 {

@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\c416cfc35e4b8f100aae68aa60258280\\transformed\\ui-release\\res\\values-or\\values-or.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,202,289,381,481,567,644,742,830,917,987,1057,1135,1217,1287,1370,1437",
-                        "endColumns": "96,86,91,99,85,76,97,87,86,69,69,77,81,69,82,66,118",
-                        "endOffsets": "197,284,376,476,562,639,737,825,912,982,1052,1130,1212,1282,1365,1432,1551"
-                    },
-                    "to": {
-                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4131,4228,7230,7322,7493,8209,8286,12180,12268,12355,12425,12579,12657,12829,13000,13083,13150",
-                        "endColumns": "96,86,91,99,85,76,97,87,86,69,69,77,81,69,82,66,118",
-                        "endOffsets": "4223,4310,7317,7417,7574,8281,8379,12263,12350,12420,12490,12652,12734,12894,13078,13145,13264"
-                    }
-                },
-                {
                     "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\f8dd52d07d856bfd1d400984c1cd82c9\\transformed\\play-services-base-17.1.0\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -74,20 +57,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\e5146f3c493cabcaadb177b74eb4ed92\\transformed\\core-1.11.0-beta02\\res\\values-or\\values-or.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7f603b7df6dd5744dc754a5e82c49e31\\transformed\\ui-release\\res\\values-or\\values-or.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,260,363,468,569,671,790",
-                        "endColumns": "102,101,102,104,100,101,118,100",
-                        "endOffsets": "153,255,358,463,564,666,785,886"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,289,381,481,567,644,742,830,917,987,1057,1135,1217,1287,1370,1437",
+                        "endColumns": "96,86,91,99,85,76,97,87,86,69,69,77,81,69,82,66,118",
+                        "endOffsets": "197,284,376,476,562,639,737,825,912,982,1052,1130,1212,1282,1365,1432,1551"
                     },
                     "to": {
-                        "startLines": "34,35,36,37,38,39,40,136",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3118,3221,3323,3426,3531,3632,3734,12899",
-                        "endColumns": "102,101,102,104,100,101,118,100",
-                        "endOffsets": "3216,3318,3421,3526,3627,3729,3848,12995"
+                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4131,4228,7230,7322,7493,8209,8286,12180,12268,12355,12425,12579,12657,12829,13000,13083,13150",
+                        "endColumns": "96,86,91,99,85,76,97,87,86,69,69,77,81,69,82,66,118",
+                        "endOffsets": "4223,4310,7317,7417,7574,8281,8379,12263,12350,12420,12490,12652,12734,12894,13078,13145,13264"
                     }
                 },
                 {
@@ -122,6 +105,23 @@
                         "startOffsets": "11942,12059",
                         "endColumns": "116,120",
                         "endOffsets": "12054,12175"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7179d9222085279d1a029bc73a01955f\\transformed\\core-1.10.0\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,260,363,468,569,671,790",
+                        "endColumns": "102,101,102,104,100,101,118,100",
+                        "endOffsets": "153,255,358,463,564,666,785,886"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,136",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3118,3221,3323,3426,3531,3632,3734,12899",
+                        "endColumns": "102,101,102,104,100,101,118,100",
+                        "endOffsets": "3216,3318,3421,3526,3627,3729,3848,12995"
                     }
                 },
                 {

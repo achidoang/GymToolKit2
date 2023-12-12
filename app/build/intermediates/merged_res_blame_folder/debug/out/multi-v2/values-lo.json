@@ -4,23 +4,6 @@
             "outputFile": "com.dicoding.gymtoolkit.app-mergeDebugResources-2:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\e5146f3c493cabcaadb177b74eb4ed92\\transformed\\core-1.11.0-beta02\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,254,353,451,552,650,761",
-                        "endColumns": "95,102,98,97,100,97,110,100",
-                        "endOffsets": "146,249,348,446,547,645,756,857"
-                    },
-                    "to": {
-                        "startLines": "34,35,36,37,38,39,40,136",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3022,3118,3221,3320,3418,3519,3617,12696",
-                        "endColumns": "95,102,98,97,100,97,110,100",
-                        "endOffsets": "3113,3216,3315,3413,3514,3612,3723,12792"
-                    }
-                },
-                {
                     "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\34caf84e7c4f920ed6a914d97b7122d4\\transformed\\navigation-ui-2.6.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3",
@@ -72,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\c416cfc35e4b8f100aae68aa60258280\\transformed\\ui-release\\res\\values-lo\\values-lo.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7179d9222085279d1a029bc73a01955f\\transformed\\core-1.10.0\\res\\values-lo\\values-lo.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,195,272,381,479,568,657,747,833,916,981,1047,1127,1211,1285,1363,1429",
-                        "endColumns": "89,76,108,97,88,88,89,85,82,64,65,79,83,73,77,65,120",
-                        "endOffsets": "190,267,376,474,563,652,742,828,911,976,1042,1122,1206,1280,1358,1424,1545"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,552,650,761",
+                        "endColumns": "95,102,98,97,100,97,110,100",
+                        "endOffsets": "146,249,348,446,547,645,756,857"
                     },
                     "to": {
-                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4045,4135,7071,7180,7354,8058,8147,11997,12083,12166,12231,12376,12456,12622,12797,12875,12941",
-                        "endColumns": "89,76,108,97,88,88,89,85,82,64,65,79,83,73,77,65,120",
-                        "endOffsets": "4130,4207,7175,7273,7438,8142,8232,12078,12161,12226,12292,12451,12535,12691,12870,12936,13057"
+                        "startLines": "34,35,36,37,38,39,40,136",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3022,3118,3221,3320,3418,3519,3617,12696",
+                        "endColumns": "95,102,98,97,100,97,110,100",
+                        "endOffsets": "3113,3216,3315,3413,3514,3612,3723,12792"
                     }
                 },
                 {
@@ -156,6 +139,23 @@
                         "startOffsets": "5463",
                         "endColumns": "131",
                         "endOffsets": "5590"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7f603b7df6dd5744dc754a5e82c49e31\\transformed\\ui-release\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,195,272,381,479,568,657,747,833,916,981,1047,1127,1211,1285,1363,1429",
+                        "endColumns": "89,76,108,97,88,88,89,85,82,64,65,79,83,73,77,65,120",
+                        "endOffsets": "190,267,376,474,563,652,742,828,911,976,1042,1122,1206,1280,1358,1424,1545"
+                    },
+                    "to": {
+                        "startLines": "44,45,66,67,69,77,78,127,128,129,130,132,133,135,137,138,139",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4045,4135,7071,7180,7354,8058,8147,11997,12083,12166,12231,12376,12456,12622,12797,12875,12941",
+                        "endColumns": "89,76,108,97,88,88,89,85,82,64,65,79,83,73,77,65,120",
+                        "endOffsets": "4130,4207,7175,7273,7438,8142,8232,12078,12161,12226,12292,12451,12535,12691,12870,12936,13057"
                     }
                 }
             ]

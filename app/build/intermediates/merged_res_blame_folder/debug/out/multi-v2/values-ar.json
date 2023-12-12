@@ -4,23 +4,6 @@
             "outputFile": "com.dicoding.gymtoolkit.app-mergeDebugResources-2:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\e5146f3c493cabcaadb177b74eb4ed92\\transformed\\core-1.11.0-beta02\\res\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,148,250,345,448,551,653,767",
-                        "endColumns": "92,101,94,102,102,101,113,100",
-                        "endOffsets": "143,245,340,443,546,648,762,863"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,140",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3208,3301,3403,3498,3601,3704,3806,12785",
-                        "endColumns": "92,101,94,102,102,101,113,100",
-                        "endOffsets": "3296,3398,3493,3596,3699,3801,3915,12881"
-                    }
-                },
-                {
                     "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\34caf84e7c4f920ed6a914d97b7122d4\\transformed\\navigation-ui-2.6.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3",
@@ -35,6 +18,23 @@
                         "startOffsets": "11865,11975",
                         "endColumns": "109,110",
                         "endOffsets": "11970,12081"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7f603b7df6dd5744dc754a5e82c49e31\\transformed\\ui-release\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,194,277,372,470,555,636,742,826,907,978,1045,1126,1209,1279,1355,1429",
+                        "endColumns": "88,82,94,97,84,80,105,83,80,70,66,80,82,69,75,73,120",
+                        "endOffsets": "189,272,367,465,550,631,737,821,902,973,1040,1121,1204,1274,1350,1424,1545"
+                    },
+                    "to": {
+                        "startLines": "48,49,70,71,73,81,82,131,132,133,134,136,137,139,141,142,143",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4217,4306,7090,7185,7359,8049,8130,12086,12170,12251,12322,12469,12550,12715,12886,12962,13036",
+                        "endColumns": "88,82,94,97,84,80,105,83,80,70,66,80,82,69,75,73,120",
+                        "endOffsets": "4301,4384,7180,7278,7439,8125,8231,12165,12246,12317,12384,12545,12628,12780,12957,13031,13152"
                     }
                 },
                 {
@@ -91,23 +91,6 @@
                     }
                 },
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\c416cfc35e4b8f100aae68aa60258280\\transformed\\ui-release\\res\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,194,277,372,470,555,636,742,826,907,978,1045,1126,1209,1279,1355,1429",
-                        "endColumns": "88,82,94,97,84,80,105,83,80,70,66,80,82,69,75,73,120",
-                        "endOffsets": "189,272,367,465,550,631,737,821,902,973,1040,1121,1204,1274,1350,1424,1545"
-                    },
-                    "to": {
-                        "startLines": "48,49,70,71,73,81,82,131,132,133,134,136,137,139,141,142,143",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4217,4306,7090,7185,7359,8049,8130,12086,12170,12251,12322,12469,12550,12715,12886,12962,13036",
-                        "endColumns": "88,82,94,97,84,80,105,83,80,70,66,80,82,69,75,73,120",
-                        "endOffsets": "4301,4384,7180,7278,7439,8125,8231,12165,12246,12317,12384,12545,12628,12780,12957,13031,13152"
-                    }
-                },
-                {
                     "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\17adae4d4960c8b759d5f54d9760b916\\transformed\\material3-1.0.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -122,6 +105,23 @@
                         "startOffsets": "4389,7283,7507",
                         "endColumns": "74,75,73",
                         "endOffsets": "4459,7354,7576"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\apps\\submission fundamental\\Github_User\\caches\\transforms-3\\7179d9222085279d1a029bc73a01955f\\transformed\\core-1.10.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,250,345,448,551,653,767",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "143,245,340,443,546,648,762,863"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,140",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3208,3301,3403,3498,3601,3704,3806,12785",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "3296,3398,3493,3596,3699,3801,3915,12881"
                     }
                 },
                 {

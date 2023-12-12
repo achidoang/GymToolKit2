@@ -251,6 +251,7 @@ fun ClickableTextComponent(onTextSelected: (String) -> Unit) {
 
 @Composable
 fun UnderLinedTextComponent(value: String) {
+    Spacer(modifier = Modifier.heightIn(MediumPadding3))
     Text(
         text = value,
         modifier = Modifier
