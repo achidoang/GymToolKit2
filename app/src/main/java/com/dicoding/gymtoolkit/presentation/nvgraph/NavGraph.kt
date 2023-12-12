@@ -7,7 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
-import com.dicoding.gymtoolkit.presentation.login.LoginScreen
+import com.dicoding.gymtoolkit.presentation.authentication.login.LoginScreen
 import com.dicoding.gymtoolkit.presentation.navigation.Navigator
 import com.dicoding.gymtoolkit.presentation.onboarding.OnBoardingScreen
 import com.dicoding.gymtoolkit.presentation.onboarding.OnBoardingViewModel

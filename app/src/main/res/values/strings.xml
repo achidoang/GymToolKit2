@@ -7,4 +7,17 @@
     <string name="menu_profile">Halaman Profil</string>
     <string name="menu_home">Halaman Home</string>
     <string name="menu_camera">Halaman Camera</string>
+
+    <string name="hello">Hey There</string>
+    <string name="create_account">Create a Account</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="register">Sign Up</string>
+    <string name="or">or</string>
+    <string name="forgot_password">Forgot your password</string>
+
 </resources>

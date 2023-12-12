@@ -77,7 +77,7 @@ fun ArticleCard(
                 )
                 Spacer(modifier = Modifier.width(ExtraSmallPadding2))
                 Icon(
-                    painter = painterResource(id = R.drawable.onboarding1),
+                    painter = painterResource(id = R.drawable.onboarding4),
                     contentDescription = null,
                     modifier = Modifier.size(SmallIconSize),
                     tint = colorResource(id = R.color.body)

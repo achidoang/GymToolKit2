@@ -9,12 +9,23 @@
     <color name="text_title">#000000</color>
     <string name="app_logo">App Logo\n</string>
     <string name="app_name">GymToolKit</string>
+    <string name="create_account">Create a Account</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot your password</string>
     <string name="gym_toolkit">Gym Toolkit</string>
+    <string name="hello">Hey There</string>
+    <string name="hide_password">Hide Password</string>
     <string name="login">Sign In</string>
     <string name="menu_camera">Halaman Camera</string>
     <string name="menu_home">Halaman Home</string>
     <string name="menu_profile">Halaman Profil</string>
+    <string name="or">or</string>
+    <string name="password">Password</string>
+    <string name="register">Sign Up</string>
+    <string name="show_password">Show Password</string>
     <string name="the_tolet">The Tolet</string>
+    <string name="username">Username</string>
+    <string name="welcome">Welcome Back</string>
     <style name="App.Starting.Theme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FFFF</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
