@@ -21,10 +21,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.dicoding.gymtoolkit.R
 import com.dicoding.gymtoolkit.presentation.Dimens
+import com.dicoding.gymtoolkit.presentation.Dimens.LebarPratinjau
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding1
+import com.dicoding.gymtoolkit.presentation.Dimens.PanjangPratinjau
 
 fun Modifier.shimmerEffect() = composed {
     val transition = rememberInfiniteTransition()
@@ -35,6 +38,17 @@ fun Modifier.shimmerEffect() = composed {
         )
     ).value
     background(color = colorResource(id = R.color.shimmer).copy(alpha = alpha))
+}
+
+@Composable
+fun BoxShimmerEffect(modifier: Modifier = Modifier) {
+    Box(
+        modifier = Modifier
+            .size(width = LebarPratinjau, height = PanjangPratinjau)
+            .clip(MaterialTheme.shapes.medium)
+            .shimmerEffect()
+    )
+
 }
 
 @Composable
@@ -75,4 +89,10 @@ fun ArticleCardShimmerEffect(modifier: Modifier = Modifier) {
             }
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ArticleCardShimmerEffectPreview(){
+    ArticleCardShimmerEffect()
 }

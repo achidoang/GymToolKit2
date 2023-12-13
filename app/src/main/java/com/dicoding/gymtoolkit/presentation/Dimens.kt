@@ -6,6 +6,8 @@ import androidx.compose.ui.unit.sp
 object Dimens {
     val ExtraSmallPadding = 3.dp
     val ExtraSmallPadding2 = 6.dp
+    val ExtraSmallPadding3 = 10.dp
+    val ExtraSmallPadding4 = 16.dp
     val MediumPadding1 = 22.dp
     val MediumPadding2 = 30.dp
     val MediumPadding3 = 40.dp
@@ -23,6 +25,8 @@ object Dimens {
 
     val ArticleCardSize = 96.dp
 
+    val LebarPratinjau = 350.dp
+    val PanjangPratinjau = 450.dp
     val SmallIconSize = 11.dp
     val IconSize = 20.dp
 

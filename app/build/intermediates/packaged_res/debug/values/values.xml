@@ -9,9 +9,11 @@
     <color name="text_title">#000000</color>
     <string name="app_logo">App Logo\n</string>
     <string name="app_name">GymToolKit</string>
+    <string name="capture">Capture Image</string>
     <string name="create_account">Create a Account</string>
     <string name="email">Email</string>
     <string name="forgot_password">Forgot your password</string>
+    <string name="grant_permission">Grant permission</string>
     <string name="gym_toolkit">Gym Toolkit</string>
     <string name="hello">Hey There</string>
     <string name="hide_password">Hide Password</string>
@@ -21,6 +23,7 @@
     <string name="menu_profile">Halaman Profil</string>
     <string name="or">or</string>
     <string name="password">Password</string>
+    <string name="permission">Please grant the permission to use the camera to use the core functionality of this app.</string>
     <string name="register">Sign Up</string>
     <string name="show_password">Show Password</string>
     <string name="the_tolet">The Tolet</string>

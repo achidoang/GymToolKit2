@@ -120,7 +120,6 @@ fun OnBoardingScreen(
                     })
             }
         }
-//        Spacer(modifier = Modifier.height(MediumPadding3))
 
     }
 }

@@ -19,17 +19,6 @@ fun NavGraph(
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = startDestination) {
-//        navigation(
-//            route = Route.AppStartNavigation.route,
-//            startDestination = Route.LoginScreen.route
-//        ) {
-//            composable(
-//                route = Route.LoginScreen.route
-//            ) {
-//                LoginScreen()
-//            }
-//        }
-
         navigation(
             route = Route.AppStartNavigation.route,
             startDestination = Route.OnBoardingScreen.route
@@ -43,6 +32,17 @@ fun NavGraph(
                 )
             }
         }
+
+//        navigation(
+//            route = Route.GymNavigation.route,
+//            startDestination = Route.LoginScreen.route
+//        ) {
+//            composable(
+//                route = Route.LoginScreen.route
+//            ) {
+//                LoginScreen()
+//            }
+//        }
 
         navigation(
             route = Route.GymNavigation.route,

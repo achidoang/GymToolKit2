@@ -20,6 +20,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.dicoding.gymtoolkit.R
 import com.dicoding.gymtoolkit.presentation.Kamera.CameraScreen
+import com.dicoding.gymtoolkit.presentation.Kamera.PermissionScreen
 import com.dicoding.gymtoolkit.presentation.home.HomeScreen
 import com.dicoding.gymtoolkit.presentation.home.HomeViewModel
 import com.dicoding.gymtoolkit.presentation.navigation.components.BottomNavigation
@@ -90,7 +91,7 @@ fun Navigator() {
                 )
             }
             composable(route = Route.CameraScreen.route) {
-                CameraScreen()
+                PermissionScreen()
             }
             composable(route = Route.DetailScreen.route) {
 

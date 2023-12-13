@@ -13,6 +13,7 @@ drawable ic_camera
 drawable ic_close
 drawable ic_email
 drawable ic_home
+drawable ic_image
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_lock
@@ -45,9 +46,11 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_logo
 string app_name
+string capture
 string create_account
 string email
 string forgot_password
+string grant_permission
 string gym_toolkit
 string hello
 string hide_password
@@ -57,6 +60,7 @@ string menu_home
 string menu_profile
 string or
 string password
+string permission
 string register
 string show_password
 string the_tolet
@@ -66,3 +70,4 @@ style App.Starting.Theme
 style Theme.GymToolKit
 xml backup_rules
 xml data_extraction_rules
+xml path_provider

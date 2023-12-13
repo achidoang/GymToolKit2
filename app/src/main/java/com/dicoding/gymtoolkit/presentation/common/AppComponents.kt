@@ -1,4 +1,4 @@
-package com.dicoding.gymtoolkit.presentation.authentication.components
+package com.dicoding.gymtoolkit.presentation.common
 
 import android.util.Log
 import androidx.compose.foundation.layout.Row
@@ -28,8 +28,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.colorResource
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
@@ -49,12 +47,14 @@ import com.dicoding.gymtoolkit.presentation.Dimens.FontSize2
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSmall1
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSmall2
 import com.dicoding.gymtoolkit.presentation.Dimens.Ketebalan1
+import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding2
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding3
 import com.dicoding.gymtoolkit.ui.theme.BlueGray
 import com.dicoding.gymtoolkit.ui.theme.componentShapes
 
 @Composable
 fun NormalTextComponent(value: String) {
+    Spacer(modifier = Modifier.height(MediumPadding2))
     Text(
         text = value,
         modifier = Modifier
@@ -214,9 +214,9 @@ fun DividerTextComponent() {
 }
 
 @Composable
-fun ClickableTextComponent(onTextSelected: (String) -> Unit) {
-    val initialText = "Already have an account? "
-    val loginText = "Sign In"
+fun ClickableTextComponent(tryingToLogin:Boolean = true, onTextSelected: (String) -> Unit) {
+    val initialText = if (tryingToLogin)"Already have an account? " else "Don't have an account yet? "
+    val loginText = if (tryingToLogin) "Sign In" else "Sign Up"
 
     val annotatedString = buildAnnotatedString {
         append(initialText)
@@ -251,7 +251,7 @@ fun ClickableTextComponent(onTextSelected: (String) -> Unit) {
 
 @Composable
 fun UnderLinedTextComponent(value: String) {
-    Spacer(modifier = Modifier.heightIn(MediumPadding3))
+    Spacer(modifier = Modifier.heightIn(MediumPadding2))
     Text(
         text = value,
         modifier = Modifier

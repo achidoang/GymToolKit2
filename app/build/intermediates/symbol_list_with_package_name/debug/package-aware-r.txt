@@ -501,6 +501,7 @@ attr iconifiedByDefault
 attr imageAspectRatio
 attr imageAspectRatioAdjust
 attr imageButtonStyle
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -803,6 +804,7 @@ attr round
 attr roundPercent
 attr route
 attr saturation
+attr scaleType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -1844,6 +1846,7 @@ drawable ic_close
 drawable ic_done_white_48dp
 drawable ic_email
 drawable ic_home
+drawable ic_image
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2035,6 +2038,7 @@ id clip_vertical
 id clockwise
 id coil_request_manager
 id collapseActionView
+id compatible
 id compose_view_saveable_id_tag
 id confirm_button
 id consume_window_insets_tag
@@ -2088,9 +2092,15 @@ id expand_activities_button
 id expanded_menu
 id fade
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
+id fitCenter
+id fitEnd
+id fitStart
 id fitToContents
 id fixed
 id flip
@@ -2223,6 +2233,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id performance
 id pin
 id pooling_container_listener_holder_tag
 id position
@@ -2568,6 +2579,7 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string capture
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2611,6 +2623,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string forgot_password
+string grant_permission
 string gym_toolkit
 string hello
 string hide_bottom_view_on_scroll_behavior
@@ -2691,6 +2704,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string permission
 string range_end
 string range_start
 string register
@@ -3561,6 +3575,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
@@ -3604,6 +3619,7 @@ styleable ViewStubCompat android_id android_layout android_inflatedId
 xml backup_rules
 xml data_extraction_rules
 xml image_share_filepaths
+xml path_provider
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
