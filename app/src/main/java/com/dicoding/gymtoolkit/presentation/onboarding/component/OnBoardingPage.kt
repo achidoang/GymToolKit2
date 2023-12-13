@@ -19,8 +19,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.dicoding.gymtoolkit.R
+import com.dicoding.gymtoolkit.presentation.Dimens.HighPadding3
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding1
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding2
+import com.dicoding.gymtoolkit.presentation.common.HeadingLeftTextComponent
+import com.dicoding.gymtoolkit.presentation.common.HeadingTextComponent
+import com.dicoding.gymtoolkit.presentation.common.NormalLeftTextComponent
+import com.dicoding.gymtoolkit.presentation.common.NormalTextComponent
 import com.dicoding.gymtoolkit.presentation.onboarding.Page
 import com.dicoding.gymtoolkit.presentation.onboarding.pages
 import com.dicoding.gymtoolkit.ui.theme.GymToolKitTheme
@@ -35,7 +40,7 @@ fun OnBoardingPage(
         // Image onboarding
         Image(
             modifier = Modifier
-                .padding(top = 70.dp)
+                .padding(top = HighPadding3)
                 .fillMaxWidth()
                 .fillMaxHeight(fraction = 0.4f),
             painter = painterResource(id = page.image),
@@ -45,20 +50,10 @@ fun OnBoardingPage(
         Spacer(modifier = Modifier.height(MediumPadding1))
 
         // Judul
-        Text(
-            text = page.title,
-            modifier = Modifier.padding(horizontal = MediumPadding2),
-            style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.Bold),
-            color = colorResource(id = R.color.display_small)
-        )
-
+        HeadingTextComponent(value = page.title)
         // Deskripsi
-        Text(
-            text = page.description,
-            modifier = Modifier.padding(horizontal = MediumPadding2),
-            style = MaterialTheme.typography.displaySmall,
-            color = colorResource(id = R.color.text_medium)
-        )
+        NormalTextComponent(value = page.description)
+
 
     }
 }

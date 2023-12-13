@@ -14,6 +14,8 @@ object Dimens {
     val MediumPadding4 = 50.dp
     val HighPadding1 = 120.dp
     val HighPadding2 = 90.dp
+    val HighPadding3 = 70.dp
+
 
     val Ketebalan1 = 1.dp
     val Ketebalan2 = 2.dp

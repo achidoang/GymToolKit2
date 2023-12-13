@@ -27,6 +27,7 @@
     <string name="register">Sign Up</string>
     <string name="show_password">Show Password</string>
     <string name="the_tolet">The Tolet</string>
+    <string name="title_home">Choose the GymTools</string>
     <string name="username">Username</string>
     <string name="welcome">Welcome Back</string>
     <style name="App.Starting.Theme" parent="Theme.SplashScreen">

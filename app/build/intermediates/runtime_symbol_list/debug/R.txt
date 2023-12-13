@@ -1908,8 +1908,9 @@ int drawable shape 0x7f0700c9
 int drawable shape_default 0x7f0700ca
 int drawable test_custom_background 0x7f0700cb
 int drawable test_level_drawable 0x7f0700cc
-int drawable tooltip_frame_dark 0x7f0700cd
-int drawable tooltip_frame_light 0x7f0700ce
+int drawable tools1 0x7f0700cd
+int drawable tooltip_frame_dark 0x7f0700ce
+int drawable tooltip_frame_light 0x7f0700cf
 int font inter_medium 0x7f080000
 int font poppins_bold 0x7f080001
 int font poppins_regular 0x7f080002
@@ -2715,6 +2716,7 @@ int string switch_role 0x7f0f00ad
 int string tab 0x7f0f00ae
 int string template_percent 0x7f0f00af
 int string the_tolet 0x7f0f00b0
+int string title_home 0x7f0f00b3
 int string username 0x7f0f00b1
 int string welcome 0x7f0f00b2
 int style AlertDialog_AppCompat 0x7f100000

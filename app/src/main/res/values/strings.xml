@@ -22,5 +22,6 @@
     <string name="permission">Please grant the permission to use the camera to use the core functionality of this app.</string>
     <string name="grant_permission">Grant permission</string>
     <string name="capture">Capture Image</string>
+    <string name="title_home">Choose the GymTools</string>
 
 </resources>

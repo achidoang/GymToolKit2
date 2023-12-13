@@ -42,6 +42,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import com.dicoding.gymtoolkit.R
 import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding2
+import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding3
+import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding4
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSize1
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSize2
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSmall1
@@ -71,6 +73,25 @@ fun NormalTextComponent(value: String) {
 }
 
 @Composable
+fun NormalLeftTextComponent(value: String) {
+    Text(
+        text = value,
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(min = MediumPadding3)
+            .padding(start = ExtraSmallPadding4),
+        style = TextStyle(
+            fontSize = FontSmall1,
+            fontWeight = FontWeight.Normal,
+            fontStyle = FontStyle.Normal
+        ),
+        color = colorResource(id = R.color.text_title),
+        textAlign = TextAlign.Left
+    )
+}
+
+
+@Composable
 fun HeadingTextComponent(value: String) {
     Text(
         text = value,
@@ -84,6 +105,24 @@ fun HeadingTextComponent(value: String) {
         ),
         color = colorResource(id = R.color.text_title),
         textAlign = TextAlign.Center
+    )
+}
+
+@Composable
+fun HeadingLeftTextComponent(value: String) {
+    Text(
+        text = value,
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn()
+            .padding(start = ExtraSmallPadding4),
+        style = TextStyle(
+            fontSize = FontSmall2,
+            fontWeight = FontWeight.Bold,
+            fontStyle = FontStyle.Normal
+        ),
+        color = colorResource(id = R.color.text_title),
+        textAlign = TextAlign.Left
     )
 }
 
@@ -219,7 +258,9 @@ fun ClickableTextComponent(tryingToLogin:Boolean = true, onTextSelected: (String
     val loginText = if (tryingToLogin) "Sign In" else "Sign Up"
 
     val annotatedString = buildAnnotatedString {
-        append(initialText)
+        withStyle(style = SpanStyle(color = colorResource(id = R.color.text_title))) {
+            append(initialText)
+        }
         withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.primary)) {
             pushStringAnnotation(tag = loginText, annotation = loginText)
             append(loginText)

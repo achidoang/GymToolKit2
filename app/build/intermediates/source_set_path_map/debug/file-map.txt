@@ -1,9 +1,9 @@
-com.dicoding.gymtoolkit.app-resValues-0 D:\Kuliah\Bangkit\Capstone\Gym2\app\build\generated\res\resValues\debug
-com.dicoding.gymtoolkit.app-packageDebugResources-1 D:\Kuliah\Bangkit\Capstone\Gym2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.dicoding.gymtoolkit.app-packageDebugResources-2 D:\Kuliah\Bangkit\Capstone\Gym2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.dicoding.gymtoolkit.app-merged_res-3 D:\Kuliah\Bangkit\Capstone\Gym2\app\build\intermediates\merged_res\debug
-com.dicoding.gymtoolkit.app-debug-4 D:\Kuliah\Bangkit\Capstone\Gym2\app\src\debug\res
-com.dicoding.gymtoolkit.app-main-5 D:\Kuliah\Bangkit\Capstone\Gym2\app\src\main\res
+com.dicoding.gymtoolkit.app-resValues-0 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\build\generated\res\resValues\debug
+com.dicoding.gymtoolkit.app-packageDebugResources-1 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.dicoding.gymtoolkit.app-packageDebugResources-2 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.dicoding.gymtoolkit.app-merged_res-3 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\build\intermediates\merged_res\debug
+com.dicoding.gymtoolkit.app-debug-4 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\src\debug\res
+com.dicoding.gymtoolkit.app-main-5 D:\Kuliah\Bangkit\Capstone\CheckpointCamera\BangkitCapstone\app\src\main\res
 com.dicoding.gymtoolkit.app-hilt-navigation-compose-1.0.0-6 D:\Kuliah\Bangkit\apps\submission fundamental\Github_User\caches\transforms-3\01a97bcba694fbbb9f0024d772dde267\transformed\hilt-navigation-compose-1.0.0\res
 com.dicoding.gymtoolkit.app-cardview-1.0.0-7 D:\Kuliah\Bangkit\apps\submission fundamental\Github_User\caches\transforms-3\020bbe466effc6878bc570a1a2b68204\transformed\cardview-1.0.0\res
 com.dicoding.gymtoolkit.app-viewpager2-1.0.0-8 D:\Kuliah\Bangkit\apps\submission fundamental\Github_User\caches\transforms-3\02c3814bf22010cb8f1147517d0ef3ff\transformed\viewpager2-1.0.0\res

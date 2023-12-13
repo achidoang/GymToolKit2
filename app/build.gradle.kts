@@ -135,6 +135,7 @@ dependencies {
 
     //Compose Foundation
     implementation("androidx.compose.foundation:foundation:1.4.3")
+    implementation("androidx.compose.foundation:foundation-layout:1.4.3")
 
     //Accompanist
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta")

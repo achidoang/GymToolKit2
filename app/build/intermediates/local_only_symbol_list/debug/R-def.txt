@@ -34,6 +34,7 @@ drawable onboarding4
 drawable onboarding5
 drawable onboarding6
 drawable shape
+drawable tools1
 font inter_medium
 font poppins_bold
 font poppins_regular
@@ -64,6 +65,7 @@ string permission
 string register
 string show_password
 string the_tolet
+string title_home
 string username
 string welcome
 style App.Starting.Theme

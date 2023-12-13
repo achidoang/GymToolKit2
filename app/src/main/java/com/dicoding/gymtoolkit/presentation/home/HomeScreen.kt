@@ -1,62 +1,36 @@
 package com.dicoding.gymtoolkit.presentation.home
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import com.dicoding.gymtoolkit.R
-import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding1
+import com.dicoding.gymtoolkit.presentation.Dimens
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding2
-import com.dicoding.gymtoolkit.presentation.common.ClickableTextComponent
-import com.dicoding.gymtoolkit.presentation.common.DividerTextComponent
+import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding3
 import com.dicoding.gymtoolkit.presentation.common.HeadingTextComponent
-import com.dicoding.gymtoolkit.presentation.common.MyTextFieldComponent
-import com.dicoding.gymtoolkit.presentation.common.NormalTextComponent
-import com.dicoding.gymtoolkit.presentation.common.PasswordTextFieldComponent
-import com.dicoding.gymtoolkit.presentation.common.ButtonComponent
+import com.dicoding.gymtoolkit.presentation.common.ToolsCard
 
 @Composable
 fun HomeScreen() {
-    Surface(
-        color = MaterialTheme.colorScheme.background,
-        modifier = Modifier
-            .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background)
-            .padding(MediumPadding2)
+    Spacer(modifier = Modifier.height(MediumPadding3))
+    HeadingTextComponent(value = stringResource(id = R.string.title_home))
 
+
+    LazyVerticalGrid(
+        columns = GridCells.Fixed(2), // Jumlah kolom dalam satu baris
+        contentPadding = PaddingValues(Dimens.MediumPadding1)
     ) {
-        Column(modifier = Modifier.fillMaxSize()) {
-
-            NormalTextComponent(value = stringResource(id = R.string.hello))
-            HeadingTextComponent(value = stringResource(id = R.string.create_account))
-            Spacer(modifier = Modifier.height(MediumPadding1))
-            MyTextFieldComponent(
-                labelValue = stringResource(id = R.string.username),
-                painterResource(id = R.drawable.ic_profil)
-            )
-            MyTextFieldComponent(
-                labelValue = stringResource(id = R.string.email),
-                painterResource(id = R.drawable.ic_email)
-            )
-            PasswordTextFieldComponent(
-                labelValue = stringResource(id = R.string.password),
-                painterResource(id = R.drawable.ic_lock)
-            )
-            ButtonComponent(value = stringResource(id = R.string.register))
-            DividerTextComponent()
-
-            ClickableTextComponent(onTextSelected = {
-
-            })
+        items(toolsGym) { dataTools ->
+            ToolsCard(dataTools = dataTools)
         }
-
     }
+
 }
+

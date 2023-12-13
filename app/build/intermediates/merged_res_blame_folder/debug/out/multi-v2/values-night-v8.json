@@ -4,7 +4,24 @@
             "outputFile": "com.dicoding.gymtoolkit.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Kuliah\\Bangkit\\Capstone\\Gym2\\app\\src\\main\\res\\values-night\\splash.xml",
+                    "source": "D:\\Kuliah\\Bangkit\\Capstone\\CheckpointCamera\\BangkitCapstone\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "5,2,6,7,8,3,4",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "203,57,243,295,342,108,157",
+                        "endColumns": "38,49,50,45,41,47,44",
+                        "endOffsets": "237,102,289,336,379,151,197"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,144,195,241,283,331",
+                        "endColumns": "38,49,50,45,41,47,44",
+                        "endOffsets": "89,139,190,236,278,326,371"
+                    }
+                },
+                {
+                    "source": "D:\\Kuliah\\Bangkit\\Capstone\\CheckpointCamera\\BangkitCapstone\\app\\src\\main\\res\\values-night\\splash.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -37,23 +54,6 @@
                         "startOffsets": "757,827,911,995,1091,1193,1295,3251",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "822,906,990,1086,1188,1290,1384,3335"
-                    }
-                },
-                {
-                    "source": "D:\\Kuliah\\Bangkit\\Capstone\\Gym2\\app\\src\\main\\res\\values-night\\colors.xml",
-                    "from": {
-                        "startLines": "5,2,6,7,8,3,4",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "203,57,243,295,342,108,157",
-                        "endColumns": "38,49,50,45,41,47,44",
-                        "endOffsets": "237,102,289,336,379,151,197"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,94,144,195,241,283,331",
-                        "endColumns": "38,49,50,45,41,47,44",
-                        "endOffsets": "89,139,190,236,278,326,371"
                     }
                 },
                 {
