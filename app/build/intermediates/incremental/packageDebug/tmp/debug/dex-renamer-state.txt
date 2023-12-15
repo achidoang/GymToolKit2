@@ -1,4 +1,4 @@
-#Thu Dec 14 01:38:40 WIB 2023
+#Fri Dec 15 10:24:14 WIB 2023
 base.0=D\:\\Kuliah\\Bangkit\\Capstone\\CheckpointCamera\\BangkitCapstone\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Kuliah\\Bangkit\\Capstone\\CheckpointCamera\\BangkitCapstone\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\Kuliah\\Bangkit\\Capstone\\CheckpointCamera\\BangkitCapstone\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex

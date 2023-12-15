@@ -4,7 +4,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 object Dimens {
-    val ExtraSmallPadding = 3.dp
+    val ExtraSmallPadding = 4.dp
     val ExtraSmallPadding2 = 6.dp
     val ExtraSmallPadding3 = 10.dp
     val ExtraSmallPadding4 = 16.dp
@@ -20,12 +20,15 @@ object Dimens {
     val Ketebalan1 = 1.dp
     val Ketebalan2 = 2.dp
 
+    val highOnboarding = 600.dp
+
 
     val IndicatorSize = 14.dp
 
     val PageIndicatorWidth = 52.dp
 
     val ArticleCardSize = 96.dp
+    val StepCardSize = 50.dp
 
     val LebarPratinjau = 350.dp
     val PanjangPratinjau = 450.dp

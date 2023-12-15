@@ -66,13 +66,13 @@ fun OnBoardingScreen(
         Spacer(modifier = Modifier.height(MediumPadding3))
 
         // Section Indicator dan button
-        Spacer(modifier = Modifier.height(MediumPadding2))
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = MediumPadding2)
                 .navigationBarsPadding(),
-            horizontalAlignment = Alignment.CenterHorizontally
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Bottom
         ) {
             // Membuat indicator page
             PageIndicator(

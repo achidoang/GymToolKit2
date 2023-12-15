@@ -101,7 +101,12 @@ fun CameraScreen() {
             }
 
         } else {
-            BoxShimmerEffect()
+            BoxShimmerEffect(
+                onClick = {
+                    // Membuka kamera ketika diklik
+                    cameraLauncher.launch(uri)
+                }
+            )
         }
         
         Spacer(modifier = Modifier.height(MediumPadding3))

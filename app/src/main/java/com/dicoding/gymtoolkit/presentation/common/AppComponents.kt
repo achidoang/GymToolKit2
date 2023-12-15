@@ -39,16 +39,17 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import com.dicoding.gymtoolkit.R
 import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding2
-import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding3
 import com.dicoding.gymtoolkit.presentation.Dimens.ExtraSmallPadding4
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSize1
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSize2
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSmall1
 import com.dicoding.gymtoolkit.presentation.Dimens.FontSmall2
 import com.dicoding.gymtoolkit.presentation.Dimens.Ketebalan1
+import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding1
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding2
 import com.dicoding.gymtoolkit.presentation.Dimens.MediumPadding3
 import com.dicoding.gymtoolkit.ui.theme.BlueGray
@@ -73,20 +74,41 @@ fun NormalTextComponent(value: String) {
 }
 
 @Composable
+fun OnboardinglTextComponent(value: String) {
+    Spacer(modifier = Modifier.height(MediumPadding2))
+    Text(
+        text = value,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = MediumPadding1)
+            .heightIn(min = MediumPadding3),
+        style = TextStyle(
+            fontSize = FontSmall2,
+            fontWeight = FontWeight.Normal,
+            fontStyle = FontStyle.Normal
+        ),
+        color = colorResource(id = R.color.text_title),
+        textAlign = TextAlign.Justify
+    )
+}
+
+@Composable
 fun NormalLeftTextComponent(value: String) {
     Text(
         text = value,
         modifier = Modifier
             .fillMaxWidth()
             .heightIn(min = MediumPadding3)
-            .padding(start = ExtraSmallPadding4),
+            .padding(start = ExtraSmallPadding2),
         style = TextStyle(
             fontSize = FontSmall1,
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal
         ),
-        color = colorResource(id = R.color.text_title),
-        textAlign = TextAlign.Left
+        color = colorResource(id = R.color.text_medium),
+        textAlign = TextAlign.Left,
+        maxLines = 3,
+        overflow = TextOverflow.Ellipsis
     )
 }
 
@@ -115,7 +137,7 @@ fun HeadingLeftTextComponent(value: String) {
         modifier = Modifier
             .fillMaxWidth()
             .heightIn()
-            .padding(start = ExtraSmallPadding4),
+            .padding(start = ExtraSmallPadding2),
         style = TextStyle(
             fontSize = FontSmall2,
             fontWeight = FontWeight.Bold,
@@ -126,6 +148,23 @@ fun HeadingLeftTextComponent(value: String) {
     )
 }
 
+@Composable
+fun Heading2LeftTextComponent(value: String) {
+    Text(
+        text = value,
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn()
+            .padding(start = ExtraSmallPadding4),
+        style = TextStyle(
+            fontSize = FontSize2,
+            fontWeight = FontWeight.Bold,
+            fontStyle = FontStyle.Normal
+        ),
+        color = colorResource(id = R.color.text_title),
+        textAlign = TextAlign.Left
+    )
+}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyTextFieldComponent(labelValue: String, painterResource: Painter) {
@@ -159,6 +198,23 @@ fun MyTextFieldComponent(labelValue: String, painterResource: Painter) {
         }
     )
     Spacer(modifier = Modifier.height(ExtraSmallPadding2))
+}
+
+@Composable
+fun NumberTextComponent(value: String) {
+    Text(
+        text = value,
+        modifier = Modifier
+            .heightIn()
+            .padding(start = ExtraSmallPadding2),
+        style = TextStyle(
+            fontSize = FontSize2,
+            fontWeight = FontWeight.Bold,
+            fontStyle = FontStyle.Normal
+        ),
+        color = colorResource(id = R.color.text_title),
+        textAlign = TextAlign.Left
+    )
 }
 
 
